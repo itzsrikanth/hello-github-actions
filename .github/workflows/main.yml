@@ -10,4 +10,4 @@ jobs:
     name: Hello world action
     runs-on: ubuntu-latest
     steps:
-      - run: date
+      - run: date && whoami
